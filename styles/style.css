@@ -119,6 +119,17 @@ ul a {
     line-height: 40px;
 }
 
+.popular-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.popular-card i {
+    color: #FB8200;
+}
+
 .popular-card h3 {
     color: rgba(0, 0, 0, 0.87);
     font-family: Inter;
@@ -133,9 +144,38 @@ ul a {
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 15px;
 }
-.popular-content{
+
+.popular-content {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-top: 24px;
+}
+
+.popular-see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px 0px;
+    text-align: right;
+
+}
+
+/* producys related style */
+.products-section{
+    max-width: 1050px;
+    margin: 50px auto;
+}
+.products-title {
+    color: #0A0826;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 20px 0px;
+}
+.products-containar{
+    display: flex;
+    gap: 100px;
 }
