@@ -163,10 +163,11 @@ ul a {
 }
 
 /* producys related style */
-.products-section{
+.products-section {
     max-width: 1050px;
     margin: 50px auto;
 }
+
 .products-title {
     color: #0A0826;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -175,7 +176,40 @@ ul a {
     line-height: 60px;
     margin: 20px 0px;
 }
-.products-containar{
+
+.products-containar {
     display: flex;
     gap: 100px;
+}
+
+/* footer */
+.header-title {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+footer {
+    background: #0A0826;
+    text-align: center;
+    padding: 50px 0px;
+   margin: 0 auto;
+}
+
+.footer-description {
+    color: #D9DBE1;
+    font-feature-settings: 'liga' off;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.social-icon {
+    margin-top: 10px;
+}
+.social-icon a{
+    
+    color: rgb(248, 247, 247);
+    padding: 20px 5px;
 }
